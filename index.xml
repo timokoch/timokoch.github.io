@@ -22,7 +22,7 @@
       
       <guid>https://timokoch.github.io/software/</guid>
       <description>DuMux &amp;mdash; DUNE for Multi-{Phase, Component, Scale, Physics, …} flow and transport in porous media I am one of the main developers of the open-source simulator DuMux.
-Visit the DuMux website or the official GitLab repository to learn more.
+Visit the DuMux website or the official DuMux GitLab repository to learn more.
 Recent ideas and concepts behind DuMux are described in our recent publication: T. Koch, D. Gläser, K. Weishaupt et al (2021) &amp;ldquo;DuMux 3 – an open-source simulator for solving flow and transport problems in porous media with a focus on model coupling&amp;rdquo;.</description>
     </item>
     
