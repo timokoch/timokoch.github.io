@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News on Timo Koch</title>
+    <link>https://timokoch.github.io/</link>
+    <description>Recent content in News on Timo Koch</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 10 Jan 2022 13:40:57 +0100</lastBuildDate><atom:link href="https://timokoch.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projects</title>
+      <link>https://timokoch.github.io/projects/</link>
+      <pubDate>Mon, 10 Jan 2022 13:40:57 +0100</pubDate>
+      
+      <guid>https://timokoch.github.io/projects/</guid>
+      <description>2020-2023 &amp;ldquo;Advanced in-silico transport models for vascularized tissues with focus on the brain&amp;rdquo; (Scientia Fellows II) Perfusion magnetic resonance imaging is a time-resolved fast imaging technique based on the evaluation of how a contrast agent (CA) injected in the blood stream perfuses biological tissue (e.g. brain tissue). It is essential in the clinical workup of neurodegenerative and inflammatory diseases of the central nervous system (e.g. Alzheimer’s, multiple sclerosis) and brain cancer.</description>
+    </item>
+    
+    <item>
+      <title>Software</title>
+      <link>https://timokoch.github.io/software/</link>
+      <pubDate>Mon, 10 Jan 2022 13:40:57 +0100</pubDate>
+      
+      <guid>https://timokoch.github.io/software/</guid>
+      <description>DuMux &amp;mdash; DUNE for Multi-{Phase, Component, Scale, Physics, …} flow and transport in porous media I am one of the main developers of the open-source simulator DuMux.
+Visit the DuMux website or the official GitLab repository to learn more.
+Recent ideas and concepts behind DuMux are described in our recent publication: T. Koch, D. Gläser, K. Weishaupt et al (2021) &amp;ldquo;DuMux 3 – an open-source simulator for solving flow and transport problems in porous media with a focus on model coupling&amp;rdquo;.</description>
+    </item>
+    
+  </channel>
+</rss>
