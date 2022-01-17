@@ -7,6 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 10 Jan 2022 13:40:57 +0100</lastBuildDate><atom:link href="https://timokoch.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Publications</title>
+      <link>https://timokoch.github.io/publications/</link>
+      <pubDate>Sun, 16 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://timokoch.github.io/publications/</guid>
+      <description>Publications  I try to make sure my Google Scholar profile is up-to-date. Futhermore, I have a list of publications and the BibTex source file with publications that I was involved.
+ </description>
+    </item>
+    
+    <item>
       <title>Talks</title>
       <link>https://timokoch.github.io/talks/</link>
       <pubDate>Fri, 14 Jan 2022 00:00:00 +0000</pubDate>
