@@ -4,14 +4,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>Software</title>
-    <meta name="description" content="Timo Koch: researcher in scientific computing">
+    <meta name="description" content="Computational scientist">
     <meta name="author" content='Timo Koch'>
 
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous">
 
-    
     <link rel="stylesheet" href="/sass/researcher.min.css">
 
     
@@ -34,41 +34,41 @@ if (!doNotTrack) {
     
 </head>
 
-    <body><div class="container mt-5">
-    <nav class="navbar navbar-expand-sm flex-column flex-sm-row text-nowrap p-0">
-        <a class="navbar-brand mx-0 mr-sm-auto" href="https://timokoch.github.io/" title="Timo Koch">
-            <div class="navbar-nav flex-row flex-wrap justify-content-center">
-                <div class="pr-4">
+    <body><div class="container mt-3">
+    <nav class="navbar navbar-expand flex-column flex-sm-row text-nowrap p-0">
+        <a class="navbar-brand mx-0 mr-ms-auto mb-1" href="https://timokoch.github.io/" title="Timo Koch">
+            <div class="navbar-nav flex-row justify-content-center">
+                <div class="pl-2 pr-4">
                     
                         <img src="https://timokoch.github.io/timo.jpeg" alt="logo" width="100px" style="border-radius: 50%;">
                     
                 </div>
-                <div class="mt-4">
-                    <h3>Timo Koch</h3>
-                    <p>Postdoctoral fellow UiO</p>
+                <div class="mt-4 pr-4">
+                    <h4>Timo Koch</h4>
+                    <p class="flex-wrap">Computational scientist</p>
                 </div>
             </div>
         </a>
-        <div class="navbar-nav flex-row flex-wrap justify-content-center">
+        <div class="navbar-nav flex-row flex-wrap justify-content-center" style="max-width: 350px;">
             
                 
                 
-                    <a class="nav-item nav-link" href="/" title="News">
+                    <a class="nav-item nav-link" href="/" title="About">
+                        About
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/news" title="News">
                         News
                     </a>
                     
                         <span class="nav-item navbar-text mx-1">/</span>
                     
                 
-                    <a class="nav-item nav-link" href="/projects" title="Projects">
-                        Projects
-                    </a>
-                    
-                        <span class="nav-item navbar-text mx-1">/</span>
-                    
-                
-                    <a class="nav-item nav-link" href="/talks" title="Talks">
-                        Talks
+                    <a class="nav-item nav-link" href="/research" title="Research">
+                        Research
                     </a>
                     
                         <span class="nav-item navbar-text mx-1">/</span>
@@ -81,8 +81,22 @@ if (!doNotTrack) {
                         <span class="nav-item navbar-text mx-1">/</span>
                     
                 
-                    <a class="nav-item nav-link" href="https://www.mn.uio.no/math/english/people/aca/timokoch/" title="Contact">
-                        Contact
+                    <a class="nav-item nav-link" href="/talks" title="Talks">
+                        Talks
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/teaching" title="Teaching">
+                        Teaching
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/publications" title="Publications">
+                        Publications
                     </a>
                     
                 
@@ -95,35 +109,63 @@ if (!doNotTrack) {
 <div class="container bottom-footer-margin">
     <hr>
 <h3 id="dumusupxsup-----dune-for-multi-phase-component-scale-physics--flow-and-transport-in-porous-media">DuMu<sup>x</sup> &mdash; DUNE for Multi-{Phase, Component, Scale, Physics, …} flow and transport in porous media</h3>
-<img src="https://dumux.org/images/logo.svg" width="40%" style="text-align: left;">
+<div class="row">
+<div class="col">
+<p><a href="https://dumux.org/" target="_blank"><img class="float-right" src="https://dumux.org/images/logo.svg" width="40%" style="text-align: left;"></a></p>
+<p>DuMux is a simulation framework with a focus on finite volume discretization methods, model coupling for multi-physics applications, and flow and transport applications in porous media.</p>
 <p>I am one of the main developers of the open-source simulator DuMu<sup>x</sup>.</p>
 <p><a href="https://dumux.org/">Visit the DuMu<sup>x</sup> website</a> or the <a href="https://git.iws.uni-stuttgart.de/dumux-repositories/dumux">official DuMu<sup>x</sup> GitLab repository</a> to learn more.</p>
 <p>Recent ideas and concepts behind DuMu<sup>x</sup> are described in our recent publication: <a href="https://doi.org/10.1016/j.camwa.2020.02.012">T. Koch, D. Gläser, K. Weishaupt et al (2021) <em>&ldquo;DuMu<sup>x</sup> 3 – an open-source simulator for solving flow and transport problems in porous media with a focus on model coupling&rdquo;</em>. Computers &amp; Mathematics in Applications</a>.</p>
+<p>In brief: DuMux is based on the DUNE framework from which it uses the versatile grid interface,
+vector and matrix types, geometry and local basis functions, and linear solvers.
+DuMux then provides</p>
+<ul>
+<li>Finite volume discretizations (Tpfa, Mpfa, Staggered) and control-volume finite element discretization schemes</li>
+<li>A flexible system matrix assembler and approximation of the Jacobian matrix by numeric differentation</li>
+<li>A customizable Newton method implementation including line search and various stopping criteria</li>
+<li>Many preimplemented models (Darcy-scale porous media flow, Navier-Stokes, Geomechanics, Pore network models, Shallow water equations) and constitutive models</li>
+<li>A multi-domain framework for model coupling suited to couple subproblems with different discretizations/domains/physics/dimensions and create monolithic solvers</li>
+</ul>
+</div>
+</div>
 <hr>
-<h3 id="dune-----distributed-unified-numerics-environment">DUNE &mdash; Distributed Unified Numerics Environment</h3>
-<p><img src="https://www.dune-project.org/img/dune-logo1.png" alt="DUNE logo"></p>
-<p>I am a core developer of DUNE, the Distributed Unified Numerics Environment.
-DUNE is a great modular C++ toolbox for numerics and in particular famous for its versatile grid interface.</p>
+<h3 id="distributed-unified-numerics-environment-dune">Distributed Unified Numerics Environment (DUNE)</h3>
+<p><a href="https://www.dune-project.org/" target="_blank"><img alt="DUNE logo" src="https://www.dune-project.org/img/dune-logo1.png" width="60%" style="text-align: left;"></a></p>
+<p>DUNE is a great modular C++ toolbox for numerics and in particular famous for its versatile grid interface.
+I am a core developer of DUNE, the Distributed Unified Numerics Environment.</p>
 <p><a href="https://www.dune-project.org/">Check out the DUNE project website</a> or the <a href="https://gitlab.dune-project.org/core">official DUNE GitLab repositories</a>
 to  learn more.</p>
 <hr>
 <h3 id="dune-foamgrid">dune-foamgrid</h3>
-<p><img src="../foamgridnetworks.png" alt="some networks with FoamGrid"></p>
-<p>I am one of the maintainers of the DUNE grid interface implementation for surface and network grids, Dune::FoamGrid.</p>
-<p><a href="https://gitlab.dune-project.org/extensions/dune-foamgrid">Visit the official GitLab repository</a> to learn more.</p>
+<p><img src="/foamgridnetworks.png" alt="some networks with FoamGrid"></p>
+<p><code>Dune::FoamGrid</code> implements the DUNE grid interface for surface and network grids embedded in higher dimensional space.
+I am one of the maintainers of the library.
+<a href="https://gitlab.dune-project.org/extensions/dune-foamgrid">Visit the official GitLab repository</a> to learn more.</p>
 <p>The ideas, concepts, and the interface of Dune::FoamGrid are described in our publication: <a href="https://doi.org/10.11588/ans.2017.1.28490">O. Sander, T. Koch, N. Schröder, B. Flemisch (2017) <em>&ldquo;The Dune FoamGrid implementation for surface and network grids.&rdquo;</em> Archive of Numerical Software 5 (1), 217-244</a></p>
 <hr>
+<h3 id="dune-testtools">dune-testtools</h3>
+<p><code>dune-testtools</code> is a library that helps to create system tests. It implementes a parser
+for an extended Dune INI format called meta ini, a domain-specific language for specifying parameter combinations.
+In particular these can be <em>both</em> runtime and compile time parameterizations.</p>
+<p><a href="https://gitlab.dune-project.org/quality/dune-testtools">Visit the official GitLab repository</a> to learn more.</p>
+<p>The concepts are described in our publication: <a href="https://doi.org/10.11588/ans.2017.1.27447">D. Kempf, T. Koch (2017) <em>&ldquo;System testing in scientific numerical software frameworks using the example of DUNE.&rdquo;</em> Archive of Numerical Software 5 (1), 151-168</a></p>
+<p><img src="/systemtesting.png" alt="systemtest scheme"></p>
+<hr>
 <h3 id="fieldcompare">fieldcompare</h3>
-<p><img src="https://gitlab.com/dglaeser/fieldcompare/-/raw/0969f367ee22aee69000dd81b74a3fbb833cd9fe/logo/logo.svg" alt="fieldcompare logo"></p>
-<p>fieldcompare is a Python package with command-line interface (CLI) and Python API that can be used to compare
+<div class="row">
+<div class="col">
+<p><a href="https://pypi.org/project/fieldcompare/" target="_blank"><img class="img-fluid float-sm-end float-left m-4" alt="fieldcompare logo" src="https://gitlab.com/dglaeser/fieldcompare/-/raw/0969f367ee22aee69000dd81b74a3fbb833cd9fe/logo/logo.svg" width="20%" style="text-align: left;"></a></p>
+<p><code>fieldcompare</code> is a Python package with command-line interface (CLI) and Python API that can be used to compare
 datasets for (fuzzy) equality. It helps to realize regression tests for in software testing.
 The focus is particularly research software that deals with numerical simulations on meshes.
 In regression tests, the output of a software is compared to reference data that was produced by
 the same software at an earlier time, in order to detect if changes to the code cause unexpected
 changes to the behavior of the software.</p>
-<p>I am a contributor to the project whose main developer is Dennis Gläser (University of Stuttgart).</p>
-<p><a href="https://gitlab.com/dglaeser/fieldcompare">Visit the official GitLab repository</a> to learn more.</p>
-<p>The ideas, concepts, and the interface of fieldcompare are described in our publication: <a href="https://doi.org/10.21105/joss.04905">Gläser et al., (2023). fieldcompare: A Python package for regression testing simulation results. Journal of Open Source Software, 8(81), 4905</a></p>
+<p>I am a contributor to the project whose main developer is Dennis Gläser (University of Stuttgart).
+<a href="https://gitlab.com/dglaeser/fieldcompare">Visit the official GitLab repository</a> to learn more.</p>
+<p>The ideas, concepts, and the interface of fieldcompare are described in our publication: <a href="https://doi.org/10.21105/joss.04905">D. Gläser, T. Koch, S. Peters, S. Marcus, B. Flemisch (2023). fieldcompare: A Python package for regression testing simulation results. Journal of Open Source Software, 8(81), 4905</a></p>
+</div>
+</div>
 <hr>
 
 </div>
@@ -149,9 +191,9 @@ changes to the behavior of the software.</p>
     
         <div class="container text-center">
             <a href="https://www.mn.uio.no/math/english/people/aca/timokoch/" title="Timo Koch">Timo Koch</a>
-            | <a href="https://www.mn.uio.no/math/english/people/aca/timokoch/" title="Postdoctoral fellow UiO">Postdoctoral fellow UiO</a>
-            | <a href="https://www.simula.no/user/121797" title="Guest researcher Simula research laboratory">Guest researcher Simula research laboratory</a>
-            <p> Scientific computing, Porous media, Bio fluid mechanics </p>
+            | <a href="https://scholar.google.com/citations?user=NS_6FmUAAAAJ&amp;hl=en&amp;oi=ao" title="Computational scientist">Computational scientist</a>
+            | <a href="https://www.mn.uio.no/math/english/people/aca/timokoch/" title="Scientia II MSC fellow, University of Oslo">Scientia II MSC fellow, University of Oslo</a>
+            <p> Scientific computing, Porous media, Bio fluid mechanics, Applied math </p>
         </div>
     
 </div>

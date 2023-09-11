@@ -1,20 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>News on Timo Koch</title>
+    <title>Introduction on Timo Koch</title>
     <link>https://timokoch.github.io/</link>
-    <description>Recent content in News on Timo Koch</description>
+    <description>Recent content in Introduction on Timo Koch</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 10 Jan 2022 13:40:57 +0100</lastBuildDate><atom:link href="https://timokoch.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Teaching</title>
+      <link>https://timokoch.github.io/teaching/</link>
+      <pubDate>Thu, 31 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://timokoch.github.io/teaching/</guid>
+      <description>Bio-fluid mechanics I am teaching a course on Bio-fluid mechanics as part of the lecture &amp;ldquo;Data-integrated Simulation Science A&amp;rdquo;, Master program Simulation Technology, at the University of Stuttgart where I am a guest lecturer (W21/22, W22/23, WS23/24).
+The course integrates physiological background, mathematical modelling, numerical theory, and practical implementation of ideas in Python.
+Link to lecture notes (work in progress and are continuously updated and expanded)
+A Python script plotting velocity profiles for pulsating flow in a circular tube for different Womersley numbers can be found here.</description>
+    </item>
+    
     <item>
       <title>Software</title>
       <link>https://timokoch.github.io/software/</link>
       <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>https://timokoch.github.io/software/</guid>
-      <description>DuMux &amp;mdash; DUNE for Multi-{Phase, Component, Scale, Physics, …} flow and transport in porous media I am one of the main developers of the open-source simulator DuMux.
+      <description>DuMux &amp;mdash; DUNE for Multi-{Phase, Component, Scale, Physics, …} flow and transport in porous media DuMux is a simulation framework with a focus on finite volume discretization methods, model coupling for multi-physics applications, and flow and transport applications in porous media.
+I am one of the main developers of the open-source simulator DuMux.
 Visit the DuMux website or the official DuMux GitLab repository to learn more.
-Recent ideas and concepts behind DuMux are described in our recent publication: T. Koch, D. Gläser, K. Weishaupt et al (2021) &amp;ldquo;DuMux 3 – an open-source simulator for solving flow and transport problems in porous media with a focus on model coupling&amp;rdquo;.</description>
+Recent ideas and concepts behind DuMux are described in our recent publication: T.</description>
     </item>
     
     <item>
@@ -23,25 +36,38 @@ Recent ideas and concepts behind DuMux are described in our recent publication: 
       <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>https://timokoch.github.io/talks/</guid>
-      <description>Talks / conferences / workshops, etc. 2023 19-22 Jun 23 SIAM Conference on Mathematical &amp;amp; Computational Issues in the Geosciences (GS23), Bergen, Norway. 5-9 Jun 23 Large-Scale Scientific Computations 2023, Sozopol, Bulgaria. 22-25 May 23 Interpore 2023, Edinburgh, United Kingdom. 11 May 23 Speaker in the Simula SCAN seminar, Simula Research Laboratory Oslo, Norway. 25-28 Apr 23 22nd Computational Fluids Conference (CFC) in Cannes, France. 3-5 Apr 23 Lecturer and organizer, DuMux course 2023, Uni Stuttgart, Germany.</description>
+      <description>4-6 Oct 23 Keynote speaker at International Conference on Data-Integrated Simulation Science (SimTech2023), Stuttgart, Germany. Link to abstract. 17-19 Sep 23 Speaker at the Dune user and developer meeeing, Dresden, Germany. 19-22 Jun 23 Speaker at SIAM Conference on Mathematical &amp;amp; Computational Issues in the Geosciences (GS23), Bergen, Norway. 5-9 Jun 23 LSpeaker at arge-Scale Scientific Computations 2023, Sozopol, Bulgaria. 22-25 May 23 Speaker at Interpore 2023, Edinburgh, United Kingdom.</description>
     </item>
     
     <item>
-      <title>Publications</title>
-      <link>https://timokoch.github.io/publications/</link>
-      <pubDate>Sun, 16 Jan 2022 00:00:00 +0000</pubDate>
+      <title>News</title>
+      <link>https://timokoch.github.io/news/</link>
+      <pubDate>Mon, 10 Jan 2022 13:40:57 +0100</pubDate>
       
-      <guid>https://timokoch.github.io/publications/</guid>
-      <description>Publications I try to make sure my Google Scholar profile is up-to-date. Futhermore, I have a list of publications and the BibTex source file with publications that I was involved.</description>
+      <guid>https://timokoch.github.io/news/</guid>
+      <description>2023 4 Sep 23 We published a new preprint on the ArXiv &amp;ldquo;Stable and locally mass- and momentum-conservative control-volume finite-element schemes for the Stokes problem &amp;ldquo; (with M. Schneider) where we developed control-volume finite element schemes for the Stokes problem. The presented approach yields a locally mass- and momentum-conservative schemes on unstructured grids by construction and has the simplicity of a finite volume method. PDF
+03 Jun 23 Our paper &amp;ldquo;Collaborative benchmarking of functional-structural root architecture models: Quantitative comparison of simulated root water uptake&amp;rdquo; is published in in silico Plants (benchmark effort involving five different groups led by Andrea Schnepf).</description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>https://timokoch.github.io/projects/</link>
+      <link>https://timokoch.github.io/research/</link>
       <pubDate>Mon, 10 Jan 2022 13:40:57 +0100</pubDate>
       
-      <guid>https://timokoch.github.io/projects/</guid>
-      <description>2020-2023 &amp;ldquo;Advanced in-silico transport models for vascularized tissues with focus on the brain&amp;rdquo; (Scientia Fellows II) Perfusion magnetic resonance imaging is a time-resolved fast imaging technique based on the evaluation of how a contrast agent (CA) injected in the blood stream perfuses biological tissue (e.g. brain tissue). It is essential in the clinical workup of neurodegenerative and inflammatory diseases of the central nervous system (e.g. Alzheimer’s, multiple sclerosis) and brain cancer.</description>
+      <guid>https://timokoch.github.io/research/</guid>
+      <description>Research topics Research topics Embedded networks Transport in brain tissue Transport in plants Numerics of multi-physics problems Reduced models for porous media Microfluidics / tissue engineering Research software engineering Embedded networks One of my ongoing research topics concerns the development of mixed-dimensional models for flow and transport processes in porous media with embedded network systems.
+Many natural and technical porous media contain network structures to facilitate transport into and from these materials that usually have a low permeability.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://timokoch.github.io/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://timokoch.github.io/publications/</guid>
+      <description>My research can be tracked on Google scholar, Research Gate, and arXiv. I also try to keep to list below up-to-date:
+Busek, M., Aizenshtadt, A., Koch, T., Frank, A., Delon, L., Martinez, M. A., Golovin, A., Dumas, C., Stokowiec, J., Gruenzner, S., Melum, E., &amp;amp; Krauss, S. (2023). Pump-less, recirculating organ-on-a-chip (rOoC) platform. Lab on a Chip, 23(4), 591–608. https://doi.org/10.1039/d2lc00919f
+Gläser, D., Koch, T., Peters, S., Marcus, S., &amp;amp; Flemisch, B.</description>
     </item>
     
   </channel>

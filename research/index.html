@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang=""><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Projects</title>
+    <meta name="description" content="Computational scientist">
+    <meta name="author" content='Timo Koch'>
+
+    
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/sass/researcher.min.css">
+
+    
+        <link rel="icon" type="image/ico" href="https://timokoch.github.io/favicon.ico">
+    
+
+    
+        
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N1Q4Q20Q38"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-N1Q4Q20Q38', { 'anonymize_ip': false });
+}
+</script>
+
+    
+</head>
+
+    <body><div class="container mt-3">
+    <nav class="navbar navbar-expand flex-column flex-sm-row text-nowrap p-0">
+        <a class="navbar-brand mx-0 mr-ms-auto mb-1" href="https://timokoch.github.io/" title="Timo Koch">
+            <div class="navbar-nav flex-row justify-content-center">
+                <div class="pl-2 pr-4">
+                    
+                        <img src="https://timokoch.github.io/timo.jpeg" alt="logo" width="100px" style="border-radius: 50%;">
+                    
+                </div>
+                <div class="mt-4 pr-4">
+                    <h4>Timo Koch</h4>
+                    <p class="flex-wrap">Computational scientist</p>
+                </div>
+            </div>
+        </a>
+        <div class="navbar-nav flex-row flex-wrap justify-content-center" style="max-width: 350px;">
+            
+                
+                
+                    <a class="nav-item nav-link" href="/" title="About">
+                        About
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/news" title="News">
+                        News
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/research" title="Research">
+                        Research
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/software" title="Software">
+                        Software
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/talks" title="Talks">
+                        Talks
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/teaching" title="Teaching">
+                        Teaching
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/publications" title="Publications">
+                        Publications
+                    </a>
+                    
+                
+            
+        </div>
+    </nav>
+</div>
+<hr>
+<div id="content">
+<div class="container bottom-footer-margin">
+    <hr>
+<h1 id="research-topics">Research topics</h1>
+<div class="toc">
+    <h5>Research topics</h5>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#embedded-networks">Embedded networks</a></li>
+    <li><a href="#transport-in-brain-tissue">Transport in brain tissue</a></li>
+    <li><a href="#transport-in-plants">Transport in plants</a></li>
+    <li><a href="#numerics-of-multi-physics-problems">Numerics of multi-physics problems</a></li>
+    <li><a href="#reduced-models-for-porous-media">Reduced models for porous media</a></li>
+    <li><a href="#microfluidics--tissue-engineering">Microfluidics / tissue engineering</a></li>
+    <li><a href="#research-software-engineering">Research software engineering</a></li>
+  </ul>
+</nav>
+</div>
+
+<hr>
+<h2 id="embedded-networks">Embedded networks</h2>
+<p>One of my ongoing research topics concerns the development of <strong>mixed-dimensional models</strong> for
+<strong>flow and transport processes</strong> in porous media with <strong>embedded network systems</strong>.</p>
+<p>Many natural and technical porous media contain network structures to facilitate transport into and from
+these materials that usually have a low permeability.
+Examples are manifold: <em>blood vessel</em> and <em>lymph vessel</em> networks in biological tissue,
+the <em>bile duct</em> of the liver, the <em>mycelium of fungi</em>,
+<em>root-soil</em> interaction, <em>venation of leaves</em>, <em>heat exchangers</em>, <em>geothermal wells</em>,
+man-made <em>tunnel</em> systems or Karst formations.</p>
+<p>When modeling transport in such systems,
+the accurate of the exchange of mass and energy between network and porous medium
+is key. But the networks can be very thin, which has the consequence that
+standard numerical methods become computationally expensive and/or provide
+inaccurate approximations to the underlying solution of the partial differential equation
+describing the transport process.</p>
+<img alt="Mixed-dimension models" src="../projection1d3d.png" style="max-width: 500px;"/>
+<p><strong>Contribution</strong>: I desgined a numerical method for a mixed-dimensional
+description of such systems that allows to simulate transport in the network,
+the embedding porous medium, while accurately approximating any exchange.
+I applied the developed method to different applications and demonstrated its
+efficacy in multiple benchmark cases.</p>
+<p><strong>Results</strong>: The idea of the developed mixed-dimensional method
+is based on introducing a numerical parameter describing the virtual
+local extent of network segments independent of its physical size.
+This approach is combined with a reconstruction algorithm
+to approximate the model state variables at the physical network-bulk interface
+by means of local analytical solution to the partial differential equation describing
+the transport phenomenon. In this way, a coarse grid discretization
+(relative to the physical size of network segments) can be use while maintaining an
+accurate approximation of the exchange.</p>
+<ul>
+<li>
+<p><a href="https://doi.org/10.1016/j.camwa.2022.01.021">Projection-based resolved interface 1D-3D mixed-dimension method for embedded tubular network systems</a>.
+T Koch (2022). <em>Computers &amp; Mathematics with Applications</em></p>
+</li>
+<li>
+<p><a href="https://doi.org/10.1016/j.jcp.2021.110823">Nonlinear mixed-dimension model for embedded tubular networks with application to root water uptake</a>.
+T Koch, H Wu, M Schneider (2022). <em>Journal of Computational Physics</em></p>
+</li>
+<li>
+<p><a href="https://doi.org/10.1016/j.jcp.2020.109369">A new and consistent well model for one-phase flow in anisotropic porous media using a distributed source model</a>.
+T Koch, R Helmig, M Schneider (2020). <em>Journal of Computational Physics</em></p>
+</li>
+<li>
+<p><a href="https://doi.org/10.1016/j.jcp.2020.109370">Modeling tissue perfusion in terms of 1d-3d embedded mixed-dimension coupled problems with distributed sources</a>.
+T Koch, M Schneider, R Helmig, P Jenny (2020). <em>Journal of Computational Physics</em></p>
+</li>
+<li>
+<p><a href="http://dx.doi.org/10.18419/opus-10975">Mixed-dimension models for flow and transport processes in porous media with embedded tubular network systems</a>.
+T Koch (2020). PhD thesis, University of Stuttgart. <em>Stuttgart: Eigenverlag des Instituts für Wasser- und Umweltsystemmodellierung der Universität Stuttgart</em></p>
+</li>
+<li>
+<p><a href="https://doi.org/10.11588/ans.2017.1.28490">The Dune FoamGrid implementation for surface and network grids</a>.
+O Sander, T Koch, N Schröder, B Flemisch (2017). <em>Archive of Numerical Software</em></p>
+</li>
+</ul>
+<p><strong>Funding</strong>: The work in this research topic is supported by the European Union’s Horizon 2020 Research and Innovation programme under <a href="https://www.med.uio.no/english/research/scientia-fellows/">the Marie Skłodowska-Curie Actions Grant agreement No 801133 (Scientia fellows II)</a>, project &ldquo;Advanced in-silico transport models for vascularized tissues with focus on the brain.&rdquo;,
+and previously by the German Research Foundation (DGF), within the Cluster of Excellence in Simulation Technology (EXC 310), and the Collaborative Research Center on Interface-Driven Multi-Field Processes in Porous Media (SFB 1313, Project Number 327154368).</p>
+<hr>
+<h2 id="transport-in-brain-tissue">Transport in brain tissue</h2>
+<p>The human brain consumes about 20% of the total energy. It is in constant need of
+oxygen and nutrients supplied by blood vessels. At the same time, brain tissue lacks
+a lymphatic system to clear metabolic waste. Proliferation and clearance
+are still poorly understood today,
+even for healthy brain tissue under baseline conditions. Mathematical models are needed to
+bridge the data-poor gap between the cellular scale (in-vitro studies),
+and the data-rich macroscale accessible by means of non-invasive imaging methods such as MRI.
+Within the size of one image voxel, we may find several ten thousands
+of small blood vessels that form dense and hierarchical networks (the microcirculation)
+and are essential transport pathways within brain tissue.</p>
+<p><img src="../1d-3d-brain-small.png" alt="1d3d"></p>
+<p><strong>Contribution</strong>: I used mathematical modeling to derive coupled systems of partial differential
+equations describing transport of molecules (oxygen, water, drugs, metabolic waste)
+in tissue on the spatial scale of micrometer to millimeter and
+the temporal scale of seconds to minutes. I then designed numerical methods to solve these
+equations and provide predictions of transport phenomena.</p>
+<p><strong>Results</strong>: (1) We could establish a link between micrometer scale simulations
+and the resulting MRI signal which may provide new insights from MRI data on tissue
+microstructure in the future. (2) We estimated the importance of the astrocyte
+endfoot sheath as a barrier for solute transport in brain tissue
+and found it like forms a secondary barrier much more permeable than the endothelial layer
+forming the wall of capillary blood vessels but less permeable than the adjacent neural tissue.
+(3) We designed a hybrid method for blood-borne transport simulations including exchange
+with the tissue that is computationally efficient because it uses an average description
+of the capillary bed combined with a discrete description of penetrating arterioles and venoles.</p>
+<ul>
+<li>
+<p><a href="https://doi.org/10.1186/s12987-023-00421-8">Estimates of the permeability of extra-cellular pathways through the astrocyte endfoot sheath</a>.
+T Koch, V Vinje, KA Mardal (2023). <em>Fluids and Barriers of the CNS</em></p>
+</li>
+<li>
+<p><a href="https://doi.org/10.1002/cnm.3298">A multiscale subvoxel perfusion model to estimate diffusive capillary wall conductivity in multiple sclerosis lesions from perfusion MRI data</a>.
+T Koch, B Flemisch, R Helmig, R Wiest, D Obrist (2020). <em>International Journal for Numerical Methods in Biomedical Engineering</em></p>
+</li>
+<li>
+<p><a href="https://doi.org/10.1016/j.jcp.2020.109370">Modeling tissue perfusion in terms of 1d-3d embedded mixed-dimension coupled problems with distributed sources</a>.
+T Koch, M Schneider, R Helmig, P Jenny (2020). <em>Journal of Computational Physics</em></p>
+</li>
+<li>
+<p><a href="https://doi.org/10.1137/18M1228712">Hybrid models for simulating blood flow in microvascular networks</a>.
+E Vidotto, T Koch, T Köppl, R Helmig, B Wohlmuth (2019). <em>Multiscale Modeling &amp; Simulation</em></p>
+</li>
+</ul>
+<p><strong>Funding</strong>: The work in this research topic is supported by the European Union’s Horizon 2020 Research and Innovation programme under <a href="https://www.med.uio.no/english/research/scientia-fellows/">the Marie Skłodowska-Curie Actions Grant agreement No 801133 (Scientia fellows II)</a>, project &ldquo;Advanced in-silico transport models for vascularized tissues with focus on the brain.&rdquo;,
+and previously by the German Research Foundation (DGF), within the Cluster of Excellence in Simulation Technology (EXC 310), and the Collaborative Research Center on Interface-Driven Multi-Field Processes in Porous Media (SFB 1313, Project Number 327154368).</p>
+<hr>
+<h2 id="transport-in-plants">Transport in plants</h2>
+<p>Root networks of plants are responsible for nutrient and water uptake. Common subsurface
+models only model average effects of root-soil interaction. But how does the root network architecture
+related to its function? Three-dimensional functional-structural root-soil models can be used to investigate
+how soil water is redistributed by roots or how well root architecture is adapted to various soil conditions.
+The transport pathways in plants also have network structure in other parts: the branch structure above ground
+as well as the venation structure in leaves crucial for understanding transpiration as a driving force for water transport.</p>
+<p><strong>Contribution</strong>: I developed complex computational models of roots in soil including discrete description
+of (possibly growing) root networks. The models are consistent (with grid refinement). Moreover, I developed
+a new technique to approximate water uptake accurately, even when the soil grid resolution is larger than
+the diameter of the root segments. In a collaborative benchmark project, one of my models was chosen
+as a numerical reference model to compare several reduced mixed-dimensional models of root water uptake.</p>
+<p><strong>Results</strong>: (1) In the developed simulation framework in DuMux, we could described several effect of root-soil interaction
+including (rare) cases in which Richards equation does not apply due to the gas phase being trapped. (2) The developed
+nonlinear mixed-dimension model for root water uptake was among the most accurate reduced models
+and showed the best runtime performance in a collaborative benchmark study with several internationally acclaimed participating simulators.</p>
+<img alt="Root water uptake dynamic growth Koch et al (2018)" src="../drysoil2.gif" style="max-width: 400px;"/>
+<ul>
+<li>
+<p><a href="https://doi.org/10.1093/insilicoplants/diad005">Collaborative benchmarking of functional-structural root architecture models: Quantitative comparison of simulated root water uptake</a>.
+A Schnepf, CK Black, V Couvreur, BM Delory, C Doussan, A Heymans, M Javaux, D Khare, A Koch, T Koch, CW Kuppe, M Landl, D Leitner, G Lobet, F Meunier, JA Postma, ED Schäfer, T Selzner, J Vanderborght, H Vereecken (2023). <em>in silico Plants</em></p>
+</li>
+<li>
+<p><a href="https://doi.org/10.1016/j.camwa.2022.01.021">Projection-based resolved interface 1D-3D mixed-dimension method for embedded tubular network systems</a>.
+T Koch (2022). <em>Computers &amp; Mathematics with Applications</em></p>
+</li>
+<li>
+<p><a href="https://doi.org/10.1016/j.jcp.2021.110823">Nonlinear mixed-dimension model for embedded tubular networks with application to root water uptake</a>.
+T Koch, H Wu, M Schneider (2022). <em>Journal of Computational Physics</em></p>
+</li>
+<li>
+<p><a href="https://doi.org/10.1093/insilicoplants/diad005">Call for participation: collaborative benchmarking of functional-structural root architecture models. The case of root water uptake</a>.
+A Schnepf, CK Black, V Couvreur, BM Delory, C Doussan, A Koch, T Koch, M Javaux, M Landl, D Leitner, G Lobet, TH Mai, F Meunier, L Petrich, JA Postma, E Priesack, V Schmidt, J Vanderborght, H Vereecken, M Weber (2020). <em>Frontiers in plant science</em></p>
+</li>
+<li>
+<p><a href="https://doi.org/10.2136/vzj2017.12.0210">A new simulation framework for soil-root interaction, evaporation, root growth, and solute transport</a>.
+T Koch, K Heck, N Schröder, H Class, R Helmig (2018). <em>Vadose Zone Journal</em></p>
+</li>
+</ul>
+<hr>
+<h2 id="numerics-of-multi-physics-problems">Numerics of multi-physics problems</h2>
+<p>One focus of my research is designing robust numerical algorithms and software for coupled problems.</p>
+<p><strong>Results</strong>: The open-source simulator DuMux is a state-of-the-art numerics code that facilitates the implementation
+of monolithic and sequential model coupling schemes and discratization methods. We designed the first parameter-robust
+preconditioner for the Stokes-Darcy problem for different discretization schemes.</p>
+<img alt="Darcy-Stokes" src="../darcystokes-it.png"/>
+<img alt="Darcy-Stokes" src="../darcystokes.svg"/>
+<ul>
+<li>
+<p><a href="https://doi.org/10.48550/arXiv.2309.00321">Stable and locally mass-and momentum-conservative control-volume finite-element schemes for the Stokes problem</a>.
+M Schneider, T Koch (2023+). <em>ArXiv preprint</em></p>
+</li>
+<li>
+<p><a href="https://doi.org/10.1080/07373937.2021.1955706">A fully implicit coupled pore-network/free-flow model for the pore-scale simulation of drying processes</a>.
+K Weishaupt, T Koch, R Helmig (2022). <em>Drying Technology</em></p>
+</li>
+<li>
+<p><a href="https://doi.org/10.1137/21M1452974">Robust Monolithic Solvers for the Stokes&ndash;Darcy Problem with the Darcy Equation in Primal Form</a>.
+WM Boon, T Koch, M Kuchta, KA Mardal (2022). <em>SIAM Journal on Scientific Computing</em></p>
+</li>
+<li>
+<p><a href="https://doi.org/10.1016/j.jcp.2020.109370">Modeling tissue perfusion in terms of 1d-3d embedded mixed-dimension coupled problems with distributed sources</a>.
+T Koch, M Schneider, R Helmig, P Jenny (2020). <em>Journal of Computational Physics</em></p>
+</li>
+<li>
+<p><a href="https://doi.org/10.1016/j.camwa.2020.02.012">DuMux 3–an open-source simulator for solving flow and transport problems in porous media with a focus on model coupling</a>.
+T Koch, D Gläser, K Weishaupt. et al. (2021). <em>Computers &amp; Mathematics with Applications</em></p>
+</li>
+</ul>
+<hr>
+<h2 id="reduced-models-for-porous-media">Reduced models for porous media</h2>
+<p>Due to the complex structure of porous media, direct simulations on the pore-scale
+are usually prohibitively expensive. Reduced computational models help capturing relevant effects
+while keeping the computational cost low.</p>
+<p><strong>Contribution</strong>: I derived models and designed solvers for several reduced model description suitable for mesoscopic description of porous media:
+reduced models for embedded networks structures, dual network descriptions of pore and grain networks, pore-network-type
+models for drying of porous media.</p>
+<p><strong>Results</strong>: The developed dual network, pore-network, and embedded network models describe heat transport with high accuracy in comparison with
+high fidelty models at a fraction of the computational cost.</p>
+<img alt="(c) Timo Koch" src="../networks.svg" style="max-width: 600px;"/>
+<ul>
+<li>
+<p><a href="https://doi.org/10.1016/j.jcp.2021.110823">Nonlinear mixed-dimension model for embedded tubular networks with application to root water uptake</a>.
+T Koch, H Wu, M Schneider (2022). <em>Journal of Computational Physics</em></p>
+</li>
+<li>
+<p><a href="https://doi.org/10.1080/07373937.2021.1955706">A fully implicit coupled pore-network/free-flow model for the pore-scale simulation of drying processes</a>.
+K Weishaupt, T Koch, R Helmig (2022). <em>Drying Technology</em></p>
+</li>
+<li>
+<p><a href="https://doi.org/10.1007/s11242-021-01602-5">A (Dual) Network Model for Heat Transfer in Porous Media</a>.
+T Koch, K Weishaupt, J Müller, B Weigand, R Helmig (2021). <em>Transport in Porous Media</em></p>
+</li>
+</ul>
+<hr>
+<h2 id="microfluidics--tissue-engineering">Microfluidics / tissue engineering</h2>
+<p>I have great interest in organ-on-a-chip solutions and bioengineered tissues which
+are the most promising technologies to observe tissue behaviour and transport properties of tissues with human cell cultures
+under realistic but controlled conditions in the near future.</p>
+<p><strong>Contribution</strong>: I created a computational model
+to predict wall shear stress and simplified water dynamics
+in a novel pump-less micro-fluidic chip design which helps to identify optimal design parameters.</p>
+<p><strong>Results</strong>: The flow predictions matched PIV measurements well.
+Using the model, regimes beyond the possiblities of the current experiemental setup could be explored.</p>
+<img alt="(c) Busek et al (2023)" src="../chip_both.gif" style="width: 350px; height: 230px; object-fit: cover;"/>
+<ul>
+<li><a href="https://doi.org/10.1039/D2LC00919F">Pump-less, recirculating organ-on-a-chip (rOoC) platform</a>.
+M Busek, A Aizenshtadt, T Koch, A Frank, L Delon, MA Martinez, A Golovin, C Dumas, J Stokowiec, S Gruenzner, E Melum, S Krauss
+(2023). <em>Lab on a Chip</em></li>
+</ul>
+<hr>
+<h2 id="research-software-engineering">Research software engineering</h2>
+<p>An ongoing research topic concerns <strong>quality assurance in numerical software frameworks</strong>
+and <strong>sustainable research development best practices</strong>.</p>
+<p>Numerical software frameworks provide researchers with a comprehensive toolset and a common language
+so that new algorithms and software can be implemented upon provably working concepts without reinventing the proverbial wheel.
+Another advantage is that cutting edge algorithms added to a framework are directly available to a larger audience.
+Maintaining a framework is a community effort and is often
+severely resource-constrained. Software testing is a challenge in frameworks with many components and dependencies.</p>
+<img alt="Koch et al sustain" src="../sustainable_rr.png" style="max-width: 400px;"/>
+<p><strong>Contribution</strong>: I continuously work on tools (see below and <a href="/software">here</a>) that simplify
+and support the scientific workflow when working with numerical software. I developed guidelines
+for improved accessibility, reusability, and archival of research software.
+I set up state-of-the-art continuous integration pipelines (first buildbot then Gitlab CI/CD) for the <a href="https://dumux.org/">DuMux community</a>.
+I developed several automation tools reducing the work effort when publishing reproducible research papers with code in DuMux.</p>
+<p><strong>Results</strong>: In collaboration with Dominic Kempf, we designed the library
+<a href="https://gitlab.dune-project.org/quality/dune-testtools">dune-testtools</a> enabling system and regression testing in
+the numerical software framework <a href="https://dune-project.org/">DUNE</a> based on a domain-specific languange designed as an extension
+of a simple configuration file format. The tool seemlessly integrates into the developer workflow and therefore provides the possibility
+for thorough testing at minimal developer effort.</p>
+<ul>
+<li>
+<p><a href="https://doi.org/10.48550/arXiv.2301.12830">A sustainable infrastructure concept for improved accessibility, reusability, and archival of research software</a>.
+T Koch, D Gläser, A Seeland, S Roy, K Schulze, K Weishaupt, D Boehringer, S Hermann, B Flemisch (2023+). ArXiv preprint.</p>
+</li>
+<li>
+<p><a href="https://github.com/dglaeser/gridformat">GridFormat: header-only C++-library for grid file I/O</a>.
+D Gläser, T Koch, B Flemisch (2023+). <a href="https://joss.theoj.org/papers/989abc65d2b55be11ece5518f688665c">Under review for the <em>Journal of Open Source Software</em></a>.</p>
+</li>
+<li>
+<p><a href="https://doi.org/10.21105/joss.04905">fieldcompare: A Python package for regression testing simulation results</a>.
+D Gläser, T Koch, S Peters, S Marcus, B Flemisch (2023). <em>Journal of Open Source Software</em></p>
+</li>
+<li>
+<p><a href="https://git.iws.uni-stuttgart.de/dumux-repositories/dumux-web-app">DuMux web application</a>.
+A small project to set up demonstrator web application based on a parametrized Docker-based app. Framework-independent,
+includes visualization tool based on <a href="https://kitware.github.io/vtk-js/index.html">vtk.js</a> and simple configuration in JSON format.</p>
+</li>
+<li>
+<p><a href="https://doi.org/10.1016/j.camwa.2020.02.012">DuMux 3–an open-source simulator for solving flow and transport problems in porous media with a focus on model coupling</a>.
+T Koch, D Gläser, K Weishaupt. et al. (2021). <em>Computers &amp; Mathematics with Applications</em></p>
+</li>
+<li>
+<p><a href="https://doi.org/10.11588/ans.2017.1.28490">The Dune FoamGrid implementation for surface and network grids</a>.
+O Sander, T Koch, N Schröder, B Flemisch (2017). <em>Archive of Numerical Software</em></p>
+</li>
+<li>
+<p><a href="https://doi.org/10.11588/ans.2017.1.27447">System testing in scientific numerical software frameworks using the example of DUNE</a>.
+D Kempf, T Koch (2017). <em>Archive of Numerical Software</em></p>
+</li>
+</ul>
+<p><strong>Funding</strong>: Some of the research described above received funding
+from the German Research Foundation (Proj. No 391049448) and
+within the Cluster of Excellence in Simulation Technology (EXC 310/2),
+as well as the Ministry of Science, Research and the Arts, Baden-Württemberg, Germany
+within the project &ldquo;Quality assurance in scientific software frameworks at the example of DUNE / PDELab / DuMux&rdquo;.</p>
+<hr>
+
+</div>
+
+        </div><div id="footer">
+    <hr>
+    <div class="container text-center mb-2">
+        
+            <a href="mailto:timokoch@uio.no" class="fa fa-envelope fa-2x" title="E-mail"></a>
+        
+            <a href="https://scholar.google.com/citations?user=NS_6FmUAAAAJ&amp;hl=en&amp;oi=ao" class="fa fa-graduation-cap fa-2x" title="Google scholar"></a>
+        
+            <a href="https://www.researchgate.net/profile/Timo-Koch-2" class="fab fa-researchgate fa-2x" title="ResearchGate"></a>
+        
+            <a href="https://github.com/timokoch" class="fab fa-github fa-2x" title="GitHub"></a>
+        
+            <a href="https://www.linkedin.com/in/timo-koch-38944283/" class="fab fa-linkedin fa-2x" title="LinkedIn"></a>
+        
+            <a href="https://orcid.org/0000-0003-4776-5222" class="fab fa-orcid fa-2x" title="Orcid ID"></a>
+        
+        <a href="">
+    </div>
+    
+        <div class="container text-center">
+            <a href="https://www.mn.uio.no/math/english/people/aca/timokoch/" title="Timo Koch">Timo Koch</a>
+            | <a href="https://scholar.google.com/citations?user=NS_6FmUAAAAJ&amp;hl=en&amp;oi=ao" title="Computational scientist">Computational scientist</a>
+            | <a href="https://www.mn.uio.no/math/english/people/aca/timokoch/" title="Scientia II MSC fellow, University of Oslo">Scientia II MSC fellow, University of Oslo</a>
+            <p> Scientific computing, Porous media, Bio fluid mechanics, Applied math </p>
+        </div>
+    
+</div>
+</body>
+</html>
