@@ -55,7 +55,7 @@ Recent ideas and concepts behind DuMux are described in our recent publication: 
       <pubDate>Mon, 10 Jan 2022 13:40:57 +0100</pubDate>
       
       <guid>https://timokoch.github.io/research/</guid>
-      <description>Research topics Research topics Embedded networks Transport in brain tissue Transport in plants Numerics of multi-physics problems Reduced models for porous media Microfluidics / tissue engineering Research software engineering Embedded networks One of my ongoing research topics concerns the development of mixed-dimensional models for flow and transport processes in porous media with embedded network systems.
+      <description>Research topics Research topics Embedded networks Numerics of multi-physics PDE problems Transport in brain tissue Transport in plants Reduced models for porous media Microfluidics / tissue engineering Research software engineering Embedded networks One of my ongoing research topics concerns the development of mixed-dimensional models for flow and transport processes in porous media with embedded network systems.
 Many natural and technical porous media contain network structures to facilitate transport into and from these materials that usually have a low permeability.</description>
     </item>
     

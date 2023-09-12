@@ -114,9 +114,9 @@ if (!doNotTrack) {
     <nav id="TableOfContents">
   <ul>
     <li><a href="#embedded-networks">Embedded networks</a></li>
+    <li><a href="#numerics-of-multi-physics-pde-problems">Numerics of multi-physics PDE problems</a></li>
     <li><a href="#transport-in-brain-tissue">Transport in brain tissue</a></li>
     <li><a href="#transport-in-plants">Transport in plants</a></li>
-    <li><a href="#numerics-of-multi-physics-problems">Numerics of multi-physics problems</a></li>
     <li><a href="#reduced-models-for-porous-media">Reduced models for porous media</a></li>
     <li><a href="#microfluidics--tissue-engineering">Microfluidics / tissue engineering</a></li>
     <li><a href="#research-software-engineering">Research software engineering</a></li>
@@ -183,6 +183,37 @@ O Sander, T Koch, N Schröder, B Flemisch (2017). <em>Archive of Numerical Softw
 </ul>
 <p><strong>Funding</strong>: The work in this research topic is supported by the European Union’s Horizon 2020 Research and Innovation programme under <a href="https://www.med.uio.no/english/research/scientia-fellows/">the Marie Skłodowska-Curie Actions Grant agreement No 801133 (Scientia fellows II)</a>, project &ldquo;Advanced in-silico transport models for vascularized tissues with focus on the brain.&rdquo;,
 and previously by the German Research Foundation (DGF), within the Cluster of Excellence in Simulation Technology (EXC 310), and the Collaborative Research Center on Interface-Driven Multi-Field Processes in Porous Media (SFB 1313, Project Number 327154368).</p>
+<hr>
+<h2 id="numerics-of-multi-physics-pde-problems">Numerics of multi-physics PDE problems</h2>
+<p>One focus of my research is designing robust numerical algorithms and software for solving
+coupled systems of partial differential equations describing multi-physics problems.</p>
+<p><strong>Results</strong>: The open-source simulator DuMux is a state-of-the-art numerics code that facilitates the implementation
+of monolithic and sequential model coupling schemes and discratization methods. We designed the first parameter-robust
+preconditioner for the Stokes-Darcy problem for different discretization schemes.</p>
+<img alt="Darcy-Stokes" src="../darcystokes-it.png"/>
+<img alt="Darcy-Stokes" src="../darcystokes.svg"/>
+<ul>
+<li>
+<p><a href="https://doi.org/10.48550/arXiv.2309.00321">Stable and locally mass-and momentum-conservative control-volume finite-element schemes for the Stokes problem</a>.
+M Schneider, T Koch (2023+). <em>ArXiv preprint</em></p>
+</li>
+<li>
+<p><a href="https://doi.org/10.1080/07373937.2021.1955706">A fully implicit coupled pore-network/free-flow model for the pore-scale simulation of drying processes</a>.
+K Weishaupt, T Koch, R Helmig (2022). <em>Drying Technology</em></p>
+</li>
+<li>
+<p><a href="https://doi.org/10.1137/21M1452974">Robust Monolithic Solvers for the Stokes&ndash;Darcy Problem with the Darcy Equation in Primal Form</a>.
+WM Boon, T Koch, M Kuchta, KA Mardal (2022). <em>SIAM Journal on Scientific Computing</em></p>
+</li>
+<li>
+<p><a href="https://doi.org/10.1016/j.jcp.2020.109370">Modeling tissue perfusion in terms of 1d-3d embedded mixed-dimension coupled problems with distributed sources</a>.
+T Koch, M Schneider, R Helmig, P Jenny (2020). <em>Journal of Computational Physics</em></p>
+</li>
+<li>
+<p><a href="https://doi.org/10.1016/j.camwa.2020.02.012">DuMux 3–an open-source simulator for solving flow and transport problems in porous media with a focus on model coupling</a>.
+T Koch, D Gläser, K Weishaupt. et al. (2021). <em>Computers &amp; Mathematics with Applications</em></p>
+</li>
+</ul>
 <hr>
 <h2 id="transport-in-brain-tissue">Transport in brain tissue</h2>
 <p>The human brain consumes about 20% of the total energy. It is in constant need of
@@ -268,36 +299,6 @@ A Schnepf, CK Black, V Couvreur, BM Delory, C Doussan, A Koch, T Koch, M Javaux,
 <li>
 <p><a href="https://doi.org/10.2136/vzj2017.12.0210">A new simulation framework for soil-root interaction, evaporation, root growth, and solute transport</a>.
 T Koch, K Heck, N Schröder, H Class, R Helmig (2018). <em>Vadose Zone Journal</em></p>
-</li>
-</ul>
-<hr>
-<h2 id="numerics-of-multi-physics-problems">Numerics of multi-physics problems</h2>
-<p>One focus of my research is designing robust numerical algorithms and software for coupled problems.</p>
-<p><strong>Results</strong>: The open-source simulator DuMux is a state-of-the-art numerics code that facilitates the implementation
-of monolithic and sequential model coupling schemes and discratization methods. We designed the first parameter-robust
-preconditioner for the Stokes-Darcy problem for different discretization schemes.</p>
-<img alt="Darcy-Stokes" src="../darcystokes-it.png"/>
-<img alt="Darcy-Stokes" src="../darcystokes.svg"/>
-<ul>
-<li>
-<p><a href="https://doi.org/10.48550/arXiv.2309.00321">Stable and locally mass-and momentum-conservative control-volume finite-element schemes for the Stokes problem</a>.
-M Schneider, T Koch (2023+). <em>ArXiv preprint</em></p>
-</li>
-<li>
-<p><a href="https://doi.org/10.1080/07373937.2021.1955706">A fully implicit coupled pore-network/free-flow model for the pore-scale simulation of drying processes</a>.
-K Weishaupt, T Koch, R Helmig (2022). <em>Drying Technology</em></p>
-</li>
-<li>
-<p><a href="https://doi.org/10.1137/21M1452974">Robust Monolithic Solvers for the Stokes&ndash;Darcy Problem with the Darcy Equation in Primal Form</a>.
-WM Boon, T Koch, M Kuchta, KA Mardal (2022). <em>SIAM Journal on Scientific Computing</em></p>
-</li>
-<li>
-<p><a href="https://doi.org/10.1016/j.jcp.2020.109370">Modeling tissue perfusion in terms of 1d-3d embedded mixed-dimension coupled problems with distributed sources</a>.
-T Koch, M Schneider, R Helmig, P Jenny (2020). <em>Journal of Computational Physics</em></p>
-</li>
-<li>
-<p><a href="https://doi.org/10.1016/j.camwa.2020.02.012">DuMux 3–an open-source simulator for solving flow and transport problems in porous media with a focus on model coupling</a>.
-T Koch, D Gläser, K Weishaupt. et al. (2021). <em>Computers &amp; Mathematics with Applications</em></p>
 </li>
 </ul>
 <hr>
