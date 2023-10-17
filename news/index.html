@@ -109,6 +109,20 @@ if (!doNotTrack) {
 <div class="container bottom-footer-margin">
     <h2 id="2023">2023</h2>
 <hr>
+<p><span class="date">16 Oct 23</span>
+Our paper <a href="https://doi.org/10.21105/joss.05778"><strong>&ldquo;GridFormat: header-only C++-library for grid file I/O&rdquo;</strong></a>
+is published in <em>The Journal of Open Source Software</em> (with Dennis Gläser and Bernd Flemisch).
+The software repository is hosted at <a href="https://github.com/dglaeser/gridformat">https://github.com/dglaeser/gridformat</a>.
+GridFormat attacks the issue that every finite element / finite volume frameworks writes their own grid file
+readers and writers, for example, for visualization. This results in code duplication and redudant developer effort.
+GridFormat provides framework-independent generic I/O algorithms accessible via a simple API
+that are parametrized through traits. Trait classes can be specialized downstream by/for your code
+to make the GridFormat algorithms understand how to write out your custom grid/mesh structure without
+going through a common intermediate representation.
+The software is mainly developed by Dennis Gläser. Contributions welcome!
+<a href="https://www.theoj.org/joss-papers/joss.05778/10.21105.joss.05778.pdf"><i class="fa fa-file"></i> PDF</a></p>
+<p><img src="https://raw.githubusercontent.com/dglaeser/gridformat/feature/paper/paper/grids.svg" alt="gridformat"></p>
+<hr>
 <p><span class="date">4 Sep 23</span>
 We published a new preprint on the ArXiv <a href="https://doi.org/10.48550/arXiv.2309.00321"><strong>&ldquo;Stable and locally mass- and momentum-conservative control-volume finite-element schemes for the Stokes problem
 &ldquo;</strong></a> (with M. Schneider) where we developed control-volume finite element schemes for the Stokes problem.

@@ -45,8 +45,7 @@ Recent ideas and concepts behind DuMux are described in our recent publication: 
       <pubDate>Mon, 10 Jan 2022 13:40:57 +0100</pubDate>
       
       <guid>https://timokoch.github.io/news/</guid>
-      <description>2023 4 Sep 23 We published a new preprint on the ArXiv &amp;ldquo;Stable and locally mass- and momentum-conservative control-volume finite-element schemes for the Stokes problem &amp;ldquo; (with M. Schneider) where we developed control-volume finite element schemes for the Stokes problem. The presented approach yields a locally mass- and momentum-conservative schemes on unstructured grids by construction and has the simplicity of a finite volume method. PDF
-03 Jun 23 Our paper &amp;ldquo;Collaborative benchmarking of functional-structural root architecture models: Quantitative comparison of simulated root water uptake&amp;rdquo; is published in in silico Plants (benchmark effort involving five different groups led by Andrea Schnepf).</description>
+      <description>2023 16 Oct 23 Our paper &amp;ldquo;GridFormat: header-only C++-library for grid file I/O&amp;rdquo; is published in The Journal of Open Source Software (with Dennis Gläser and Bernd Flemisch). The software repository is hosted at https://github.com/dglaeser/gridformat. GridFormat attacks the issue that every finite element / finite volume frameworks writes their own grid file readers and writers, for example, for visualization. This results in code duplication and redudant developer effort. GridFormat provides framework-independent generic I/O algorithms accessible via a simple API that are parametrized through traits.</description>
     </item>
     
     <item>
@@ -67,7 +66,7 @@ Many natural and technical porous media contain network structures to facilitate
       <guid>https://timokoch.github.io/publications/</guid>
       <description>My research can be tracked on Google scholar, Research Gate, and arXiv. I also try to keep to list below up-to-date:
 Busek, M., Aizenshtadt, A., Koch, T., Frank, A., Delon, L., Martinez, M. A., Golovin, A., Dumas, C., Stokowiec, J., Gruenzner, S., Melum, E., &amp;amp; Krauss, S. (2023). Pump-less, recirculating organ-on-a-chip (rOoC) platform. Lab on a Chip, 23(4), 591–608. https://doi.org/10.1039/d2lc00919f
-Gläser, D., Koch, T., Peters, S., Marcus, S., &amp;amp; Flemisch, B.</description>
+Gläser, D., Koch, T., &amp;amp; Flemisch, B. (2023). GridFormat: Header-only C++-library for grid file i/o.</description>
     </item>
     
   </channel>
