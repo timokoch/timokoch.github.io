@@ -45,7 +45,8 @@ Recent ideas and concepts behind DuMux are described in our recent publication: 
       <pubDate>Mon, 10 Jan 2022 13:40:57 +0100</pubDate>
       
       <guid>https://timokoch.github.io/news/</guid>
-      <description>2023 16 Oct 23 Our paper &amp;ldquo;GridFormat: header-only C++-library for grid file I/O&amp;rdquo; is published in The Journal of Open Source Software (with Dennis Gläser and Bernd Flemisch). The software repository is hosted at https://github.com/dglaeser/gridformat. GridFormat attacks the issue that every finite element / finite volume frameworks writes their own grid file readers and writers, for example, for visualization. This results in code duplication and redudant developer effort. GridFormat provides framework-independent generic I/O algorithms accessible via a simple API that are parametrized through traits.</description>
+      <description>2023 15 Dec 23 Our paper &amp;ldquo;Photo‐annealing of Microtissues Creates High‐Density Capillary Network Containing Living Matter in A Volumetric‐Independent Manner&amp;rdquo; is accepted for publication in Advanced Materials (with Maik Schot, Malin Becker, Carlo Alberto Paggi, Francisca Gomes, Tarek Gensheimer, Castro Johnbosco, Liebert Parreiras Nogueira, Andries van der Meer, Andreas Carlson, Håvard Haugen, Jeroen Leijten). An interdisciplinary effort lead my Maik Schot and colleagues at the University of Twente!
+17 Nov 23 DuMux 3.</description>
     </item>
     
     <item>
