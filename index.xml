@@ -45,8 +45,8 @@ Recent ideas and concepts behind DuMux are described in our recent publication: 
       <pubDate>Mon, 10 Jan 2022 13:40:57 +0100</pubDate>
       
       <guid>https://timokoch.github.io/news/</guid>
-      <description>2023 15 Dec 23 Our paper &amp;ldquo;Photo‐annealing of Microtissues Creates High‐Density Capillary Network Containing Living Matter in A Volumetric‐Independent Manner&amp;rdquo; is accepted for publication in Advanced Materials (with Maik Schot, Malin Becker, Carlo Alberto Paggi, Francisca Gomes, Tarek Gensheimer, Castro Johnbosco, Liebert Parreiras Nogueira, Andries van der Meer, Andreas Carlson, Håvard Haugen, Jeroen Leijten). An interdisciplinary effort lead my Maik Schot and colleagues at the University of Twente!
-17 Nov 23 DuMux 3.</description>
+      <description>2023 10 Jan 24 Our paper &amp;ldquo;Stable and locally mass- and momentum-conservative control-volume finite-element schemes for the Stokes problem &amp;ldquo; is published in Computer Methods in Applied Mechanics and Engineering (with M. Schneider) where we developed control-volume finite element schemes for the Stokes problem. The presented approach is locally mass- and momentum-conservative schemes on unstructured grids by construction and has the simplicity of a finite volume method. PDF
+15 Dec 23 Our paper &amp;ldquo;Photo‐annealing of Microtissues Creates High‐Density Capillary Network Containing Living Matter in A Volumetric‐Independent Manner&amp;rdquo; is accepted for publication in Advanced Materials (with Maik Schot, Malin Becker, Carlo Alberto Paggi, Francisca Gomes, Tarek Gensheimer, Castro Johnbosco, Liebert Parreiras Nogueira, Andries van der Meer, Andreas Carlson, Håvard Haugen, Jeroen Leijten).</description>
     </item>
     
     <item>
@@ -65,9 +65,9 @@ Many natural and technical porous media contain network structures to facilitate
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://timokoch.github.io/publications/</guid>
-      <description>My research can be tracked on Google scholar, Research Gate, and arXiv. I also try to keep to list below up-to-date:
-Busek, M., Aizenshtadt, A., Koch, T., Frank, A., Delon, L., Martinez, M. A., Golovin, A., Dumas, C., Stokowiec, J., Gruenzner, S., Melum, E., &amp;amp; Krauss, S. (2023). Pump-less, recirculating organ-on-a-chip (rOoC) platform. Lab on a Chip, 23(4), 591–608. https://doi.org/10.1039/d2lc00919f
-Gläser, D., Koch, T., &amp;amp; Flemisch, B. (2023). GridFormat: Header-only C++-library for grid file i/o.</description>
+      <description>My research can be tracked on Google scholar, Research Gate, and arXiv. I also try to keep the list below up-to-date:
+Schneider, M., &amp;amp; Koch, T. (2024). Stable and locally mass- and momentum-conservative control-volume finite-element schemes for the stokes problem. Computer Methods in Applied Mechanics and Engineering https://doi.org/10.1016/j.cma.2023.116723
+Busek, M., Aizenshtadt, A., Koch, T., Frank, A., Delon, L., Martinez, M. A., Golovin, A., Dumas, C., Stokowiec, J., Gruenzner, S., Melum, E.</description>
     </item>
     
   </channel>
