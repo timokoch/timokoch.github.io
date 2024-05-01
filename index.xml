@@ -31,12 +31,12 @@ Recent ideas and concepts behind DuMux are described in our recent publication: 
     </item>
     
     <item>
-      <title>Talks</title>
+      <title>Talks, Conferences, Workshops</title>
       <link>https://timokoch.github.io/talks/</link>
       <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>https://timokoch.github.io/talks/</guid>
-      <description>4-6 Oct 23 Keynote speaker at International Conference on Data-Integrated Simulation Science (SimTech2023), Stuttgart, Germany. Link to abstract. 17-19 Sep 23 Speaker at the Dune user and developer meeeing, Dresden, Germany. 19-22 Jun 23 Speaker at SIAM Conference on Mathematical &amp;amp; Computational Issues in the Geosciences (GS23), Bergen, Norway. 5-9 Jun 23 LSpeaker at arge-Scale Scientific Computations 2023, Sozopol, Bulgaria. 22-25 May 23 Speaker at Interpore 2023, Edinburgh, United Kingdom.</description>
+      <description>17-19 Jul 24 Lecturer and organizer, DuMux course 2024, Uni Stuttgart, Germany. 13-17 Jun 24 Speaker and minisymposium co-organizer at Interpore 2024 (International Society for Porous Media), Qingdao, China. 9-10 Apr 24 OPM (The Open Porous Media Initiative) summit Oslo, Norway. 18-20 Mar 24 Poster presentation at the SFB1313 (Collaborative Research Centre on &amp;ldquo;Interface-Driven Multi-Field Processes in Porous Media – Flow, Transport and Deformation&amp;rdquo;) Status Seminar 2024, Gültstein, Germany. 4-6 Oct 23 Keynote speaker at International Conference on Data-Integrated Simulation Science (SimTech2023), Stuttgart, Germany.</description>
     </item>
     
     <item>
@@ -45,8 +45,8 @@ Recent ideas and concepts behind DuMux are described in our recent publication: 
       <pubDate>Mon, 10 Jan 2022 13:40:57 +0100</pubDate>
       
       <guid>https://timokoch.github.io/news/</guid>
-      <description>2023 10 Jan 24 Our paper &amp;ldquo;Stable and locally mass- and momentum-conservative control-volume finite-element schemes for the Stokes problem &amp;ldquo; is published in Computer Methods in Applied Mechanics and Engineering (with M. Schneider) where we developed control-volume finite element schemes for the Stokes problem. The presented approach is locally mass- and momentum-conservative schemes on unstructured grids by construction and has the simplicity of a finite volume method. PDF
-15 Dec 23 Our paper &amp;ldquo;Photo‐annealing of Microtissues Creates High‐Density Capillary Network Containing Living Matter in A Volumetric‐Independent Manner&amp;rdquo; is accepted for publication in Advanced Materials (with Maik Schot, Malin Becker, Carlo Alberto Paggi, Francisca Gomes, Tarek Gensheimer, Castro Johnbosco, Liebert Parreiras Nogueira, Andries van der Meer, Andreas Carlson, Håvard Haugen, Jeroen Leijten).</description>
+      <description>2024 10 Jan 24 Our paper &amp;ldquo;Stable and locally mass- and momentum-conservative control-volume finite-element schemes for the Stokes problem &amp;ldquo; is published in Computer Methods in Applied Mechanics and Engineering (with M. Schneider) where we developed control-volume finite element schemes for the Stokes problem. The presented approach is locally mass- and momentum-conservative schemes on unstructured grids by construction and has the simplicity of a finite volume method. PDF
+2023 15 Dec 23 Our paper &amp;ldquo;Photo‐annealing of Microtissues Creates High‐Density Capillary Network Containing Living Matter in A Volumetric‐Independent Manner&amp;rdquo; is accepted for publication in Advanced Materials (with Maik Schot, Malin Becker, Carlo Alberto Paggi, Francisca Gomes, Tarek Gensheimer, Castro Johnbosco, Liebert Parreiras Nogueira, Andries van der Meer, Andreas Carlson, Håvard Haugen, Jeroen Leijten).</description>
     </item>
     
     <item>
