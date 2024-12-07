@@ -45,8 +45,8 @@ Recent ideas and concepts behind DuMux are described in our recent publication: 
       <pubDate>Mon, 10 Jan 2022 13:40:57 +0100</pubDate>
       
       <guid>https://timokoch.github.io/news/</guid>
-      <description>2024 10 Jan 24 Our paper &amp;ldquo;Stable and locally mass- and momentum-conservative control-volume finite-element schemes for the Stokes problem &amp;ldquo; is published in Computer Methods in Applied Mechanics and Engineering (with M. Schneider) where we developed control-volume finite element schemes for the Stokes problem. The presented approach is locally mass- and momentum-conservative schemes on unstructured grids by construction and has the simplicity of a finite volume method. PDF
-2023 15 Dec 23 Our paper &amp;ldquo;Photo‐annealing of Microtissues Creates High‐Density Capillary Network Containing Living Matter in A Volumetric‐Independent Manner&amp;rdquo; is accepted for publication in Advanced Materials (with Maik Schot, Malin Becker, Carlo Alberto Paggi, Francisca Gomes, Tarek Gensheimer, Castro Johnbosco, Liebert Parreiras Nogueira, Andries van der Meer, Andreas Carlson, Håvard Haugen, Jeroen Leijten).</description>
+      <description>2024 9 Jul 24 DuMux 3.9 released! DuMux now features a two-phase multi-compoonent miscible porenetwork solver. The release also includes a few bugfixes For an overview of the features, fixes, and improvements, see the changelog Check out the DuMux website (dumux.org).
+10 Jan 24 Our paper &amp;ldquo;Stable and locally mass- and momentum-conservative control-volume finite-element schemes for the Stokes problem &amp;ldquo; is published in Computer Methods in Applied Mechanics and Engineering (with M.</description>
     </item>
     
     <item>
