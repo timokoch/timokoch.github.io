@@ -45,8 +45,7 @@ Recent ideas and concepts behind DuMux are described in our recent publication: 
       <pubDate>Mon, 10 Jan 2022 13:40:57 +0100</pubDate>
       
       <guid>https://timokoch.github.io/news/</guid>
-      <description>2024 9 Jul 24 DuMux 3.9 released! DuMux now features a two-phase multi-compoonent miscible porenetwork solver. The release also includes a few bugfixes For an overview of the features, fixes, and improvements, see the changelog Check out the DuMux website (dumux.org).
-10 Jan 24 Our paper &amp;ldquo;Stable and locally mass- and momentum-conservative control-volume finite-element schemes for the Stokes problem &amp;ldquo; is published in Computer Methods in Applied Mechanics and Engineering (with M.</description>
+      <description>2024 23 Dec 24 Our preprint __Estimation of fluid flow velocities in cortical brain tissue driven by the microvasculature __ is available on bioRxiv (with Kent-André Mardal). Fluid transport through brain tissue is dynamic, but the basic properties of this flow and its variability are poorly characterised. Disturbed fluid transport was linked to Alzheimer’s disease. Moreover, fluid flow may be exploited to administer drugs to the brain. Using computer simulations, we estimate bulk flow velocities in the gray matter functional brain tissue due to changes in blood pressure and solute concentrations in unseen detail.</description>
     </item>
     
     <item>
@@ -66,8 +65,8 @@ Many natural and technical porous media contain network structures to facilitate
       
       <guid>https://timokoch.github.io/publications/</guid>
       <description>My research can be tracked on Google scholar, Research Gate, and arXiv. I also try to keep the list below up-to-date:
-Schneider, M., &amp;amp; Koch, T. (2024). Stable and locally mass- and momentum-conservative control-volume finite-element schemes for the stokes problem. Computer Methods in Applied Mechanics and Engineering https://doi.org/10.1016/j.cma.2023.116723
-Busek, M., Aizenshtadt, A., Koch, T., Frank, A., Delon, L., Martinez, M. A., Golovin, A., Dumas, C., Stokowiec, J., Gruenzner, S., Melum, E.</description>
+Koch, T., &amp;amp; Mardal, K.-A. (2024). Estimation of fluid flow velocities in cortical brain tissue driven by the microvasculature. https://doi.org/10.1101/2024.12.23.630163
+Schneider, M., &amp;amp; Koch, T. (2024). Stable and locally mass- and momentum-conservative control-volume finite-element schemes for the Stokes problem. Computer Methods in Applied Mechanics and Engineering, 420, 116723. https://doi.org/10.1016/j.cma.2023.116723</description>
     </item>
     
   </channel>
