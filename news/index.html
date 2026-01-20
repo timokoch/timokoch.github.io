@@ -20,17 +20,20 @@
 
     
         
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-N1Q4Q20Q38"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-N1Q4Q20Q38', { 'anonymize_ip': false });
-}
-</script>
-
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-N1Q4Q20Q38"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-N1Q4Q20Q38');
+        }
+      </script>
     
 </head>
 
@@ -107,13 +110,55 @@ if (!doNotTrack) {
 <hr>
 <div id="content">
 <div class="container bottom-footer-margin">
-    <h2 id="2024">2024</h2>
+    <h2 id="2026">2026</h2>
 <hr>
-<p><span class="date">23 Dec 24</span>
-Our preprint <a href="https://doi.org/10.1101/2024.12.23.630163"><strong>&ldquo;Estimation of fluid flow velocities in cortical brain tissue driven by the microvasculature&rdquo;</strong></a> is available on bioRxiv (with Kent-André Mardal).
+<p><span class="date">20 Jan 26</span>
+Our paper / data set [<strong>&ldquo;Human brain MRI data of intrathecally injected tracer evolution over 72 hours for data-integrated simulations&rdquo;</strong>](<a href="https://doi.org/10.1038/s41597-026-06564-1">https://doi.org/10.1038/s41597-026-06564-1</a></p>
+<p>) is published in Nature&rsquo;s <em>Scientific Data</em> (with Jørgen N. Riseth, Timo Koch, Sofie Lysholm Lian, Tryggve Holck Storås, Ludmil T. Zikatanov, Lars Magnus Valnes, Kaja Nordengen &amp; Kent-André Mardal).
+The so called <a href="https://doi.org/10.5281/zenodo.14266867">&ldquo;Gonzo dataset&rdquo; is available on Zenodo</a>.
+This is a unique data set of MRI images acquired over 72 hours after intrathecal injection of a MRI contrast agent (tracer) in a human subject.
+Such data is commonly not publicly available but this was made possible here by the explicit consent of the subject.
+Such data is crucial for understanding fluid flow and solute transport in brain tissue and to develop data-integrated models for brain transport phenomena.</p>
+<img src="/scidata_fig4_gonzo.png" alt="Brain images" style="min-width: 80%;"/>
+<hr>
+<p><span class="date">11 Jan 26</span>
+Our book chapter <a href="https://doi.org/10.1016/j.ijggc.2025.104519"><strong>&ldquo;Two-compartment modeling of tracer transport&rdquo;</strong></a> is published by Springer (with Jørgen Riseth and Kent-André Mardal)
+as part of the book &ldquo;Mathematical Modelling of the Human Brain II: From Glymphatics to Deep Learning&rdquo; edited by Jørgen S. Dokken, Kent-Andre Mardal, Marie E. Rognes, Lars Magnus Valnes, Vegard Vinje.
+We motivate and analyse a two-compartment model for tracer transport in brain tissue to estimate tracer distribution from MRI data.</p>
+<p><a href="https://link.springer.com/content/pdf/10.1007/978-3-032-00679-0_8.pdf"><i class="fa fa-file"></i> PDF</a></p>
+<img src="/brain_two_compartment.png" alt="Comparison of two-compartment model results vs MRI data" style="min-width: 80%;"/>
+<h2 id="2025">2025</h2>
+<hr>
+<p><span class="date">10 Dec 25</span>
+Our paper <a href="https://doi.org/10.1016/j.ijggc.2025.104519"><strong>&ldquo;Benchmarking CO₂ storage simulations: Results from the 11th Society of Petroleum Engineers Comparative Solution Project&rdquo;</strong></a> is published in the <em>International Journal of Greenhouse Gas Control</em> (with many collaborators in an effort led by Jan M. Nordbotten, Martin A. Fernø,  Bernd Flemisch, Anthony R. Kovscek, Knut-Andreas Lie, Jakub W. Both, Olav Møyner, and Tor Harald Sandve).
+We compare results from 17 different simulation codes for the SPE11 CO2 storage benchmark case. Below is an example simulation of case B showing the evolution of the CO2 mass fraction in the liquid phase over time
+simulated with our open-source simulator <a href="https://dumux.org/">DuMux</a>.</p>
+<img src="https://git.iws.uni-stuttgart.de/dumux-appl/dumux-spe11/-/blob/1071dccf2a5b0145802c0416cfac19d1d65aa5ef/doc/co2_mass_fraction_liq.gif" alt="CO2 evolution in SPE11 scenario" style="min-width: 80%;"/>
+<hr>
+<p><span class="date">27 Nov 25</span>
+Our paper <a href="https://doi.org/10.1103/bs69-16nj"><strong>&ldquo;Hovering of an actively driven fluid-lubricated foil&rdquo;</strong></a> is published in <em>Physical Review Letters</em> (with Stéphane Poulain, L Mahadevan, Andreas Carlson).
+We analyse the elastohydrodynamic interactions between a soft, actively driven foil near a solid boundary and find that the foil can hover above the surface without contact while sustaining a substantial weight.
+This hovering arises from a balance between viscous lubrication forces, bending stresses in the foil, and active driving forces.
+Our analysis of the dynamic interplay between active forcing, viscous fluid flow, and bending stresses demonstrates how a soft foil is attracted to or repelled from a solid surface, depending on the spatial distribution of the forcing. Our findings provide new physical insights into active elastohydrodynamic phenomena and open new avenues for the design of contactless grippers, soft robots, and related technological applications.</p>
+<p><a href="https://journals.aps.org/prl/pdf/10.1103/bs69-16nj"><i class="fa fa-file"></i> PDF</a></p>
+<img src="/lubribot_fig1.png" alt="Schematic of a vibrated soft sheet near a wall" style="min-width: 80%;"/>
+<hr>
+<p><span class="date">4 Apr 25</span>
+<a href="https://git.iws.uni-stuttgart.de/dumux-repositories/dumux/-/tags/3.10.0"><strong>DuMux 3.10 released!</strong></a>
+DuMux now leverages the <a href="https://github.com/dglaeser">gridformat</a> library to provide much more flexible and powerful grid file I/O capabilities.
+The model section now separates poro- and solid mechanics models (previously geomechanics) and provides more general structural mechanics models like hyperelastodynamics.
+The release also includes a few bugfixes
+For an overview of the features, fixes, and improvements, see the <a href="https://git.iws.uni-stuttgart.de/dumux-repositories/dumux/-/blob/master/CHANGELOG.md">changelog</a>
+Check out the <a href="https://dumux.org/">DuMux website (dumux.org)</a>.</p>
+<img src="/dyn_bench.gif" alt="Flapping beam" style="min-width: 80%;"/>
+<hr>
+<p><span class="date">4 Apr 25</span>
+Our paper <a href="https://doi.org/10.1098/rsfs.2024.0042"><strong>&ldquo;Estimation of fluid flow velocities in cortical brain tissue driven by the microvasculature&rdquo;</strong></a> is published in Royal Society&rsquo;s <em>Interface Focus</em> (with Kent-André Mardal).
 Fluid transport through brain tissue is dynamic, but the basic properties of this flow and its variability are poorly characterised. Disturbed fluid transport was linked to Alzheimer’s disease. Moreover, fluid flow may be exploited to administer drugs to the brain. Using computer simulations, we estimate bulk flow velocities in the gray matter functional brain tissue due to changes in blood pressure and solute concentrations in unseen detail. We show that microvessel pulsations as filtration across the blood capillaries are potentially potent drivers of fluid flow in brain tissue.
+This paper is part of an interesting special issue on <a href="https://doi.org/10.1098/rsfs.2025.0013">&ldquo;The pulsing brain&rdquo;</a>.
 <a href="https://www.biorxiv.org/content/10.1101/2024.12.23.630163v1.full.pdf"><i class="fa fa-file"></i> PDF</a></p>
 <img src="/velocity_different_heights_small.png" alt="Velocity simulation microvessels" style="min-width: 80%;"/>
+<h2 id="2024">2024</h2>
 <hr>
 <p><span class="date">9 Jul 24</span>
 <a href="https://git.iws.uni-stuttgart.de/dumux-repositories/dumux/-/tags/3.9.0"><strong>DuMux 3.9 released!</strong></a>
